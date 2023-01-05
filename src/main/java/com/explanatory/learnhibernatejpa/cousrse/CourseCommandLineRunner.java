@@ -25,5 +25,7 @@ public class CourseCommandLineRunner implements CommandLineRunner {
         courseSpringJPA.deleteById(5l);
 
         System.out.println(courseSpringJPA.findById(2l));
+
+        System.out.println(courseSpringJPA.findAll());
     }
 }
